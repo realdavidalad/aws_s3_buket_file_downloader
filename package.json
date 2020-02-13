@@ -1,0 +1,17 @@
+{
+  "name": "aws_s3_file_downloader",
+  "version": "1.0.0",
+  "description": "to clone static files from s3 repo to local path",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gbenga Alade",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.617.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  }
+}
